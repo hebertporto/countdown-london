@@ -10,7 +10,7 @@ function App() {
   ).getTime();
   return (
     <div className='main-container'>
-      <h1>Porto's to London/ON</h1>
+      <h1>Road to London/ON</h1>
       <CountdownTimer targetDate={departureToLondonTimestamp} />
       <img src={roadTripImg} alt='Road trip' height='200' />
     </div>
